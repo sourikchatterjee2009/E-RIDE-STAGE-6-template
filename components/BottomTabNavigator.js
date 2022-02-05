@@ -17,12 +17,12 @@ export default class BottomTabNavigator extends Component {
           screenOptions={({ route }) => ({
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
-
-              if (route.name === "Ride") {
+//Fill the missing code below to add the route name
+            if (route.name === " ") {
                 iconName = "bicycle";
-              } else if (route.name === "Ride History") {
+              } else if (route.name === " ") {
                 iconName = "time";
-              }
+              }  
 
               // You can return any component that you like here!
               return (
@@ -36,8 +36,9 @@ export default class BottomTabNavigator extends Component {
             }
           })}
           tabBarOptions={{
-            activeTintColor: "#FBE5C0",
-            inactiveTintColor: "black",
+            //fill the code to add #FBE5C0 to activeTintColor and black for inactiveTintColor 
+           activeTintColor: " ",
+           inactiveTintColor: " ",
             style: {
               height: 100,
               borderTopWidth: 0,
